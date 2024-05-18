@@ -34,7 +34,7 @@
 }
 
 
-.product {
+/* .product {
     
 
 }
@@ -89,4 +89,153 @@
     width: 370px;
 height: 294px;
 flex-shrink: 0;
+} */
+
+
+.btn-nav {
+    border-width: 1px!important;
+    border-color: red !important;
+}
+
+.btn-nav:hover {
+   background-color: red !important;
+}
+
+.button-nav-position {
+    margin-right: 25px;
+    background-color: red !important;
+    border: none !important;
+}
+
+.color-nav {
+    color: red !important;
+    font-family: 'Roboto' !important;
+    font-weight: 800 !important;
+    margin-left: 50px !important;
+   
+}
+
+
+.nav-ul {
+    margin-left: auto !important;
+    gap: 20px !important;
+}
+
+
+.nav-img {
+    margin-left: 30px !important;
+}
+
+
+
+
+.ul-nav-text {
+    color: red !important;
+    font-weight: 600 !important;
+}
+
+
+.border-red {
+    border-color: red !important;
+}
+
+.ul-nav {
+    border-width: 4px !important;
+}
+
+.divider {
+    border-color: red !important;
+    border-width: 2px !important;
+}
+
+.border-yellow-weight-2 {
+    border-color: rgb(255, 187, 0) !important;
+    border-width: 2px !important;
+}
+
+.border-purple-weight-2 {
+    border-color: rgb(162, 0, 255) !important;
+    border-width: 2px !important;
+}
+
+.border-blue-weight-2 {
+    border-color: rgb(0, 110, 255) !important;
+    border-width: 2px !important;
+}
+
+.img-sec-headline {
+    font-size: 20px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    color: rgb(255, 187, 0);
+}
+
+.purple {
+    color: rgb(162, 0, 255);
+}
+
+.blue {
+    color: rgb(0, 110, 255);
+}
+
+.card-img-width {
+    width:auto !important;
+}
+
+
+.height {
+    height: 350px !important;
+}
+
+.sidebar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    z-index: 1;
+    position: fixed;
+    background-color: rgb(248, 249, 250);
+    padding-left: 19px;
+    padding-right: 19px;
+    font-family: Kanit;
+}
+
+.sidebar-input {
+    width: 180px;
+}
+
+.sidebar-input::placeholder {
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.sidebar-display {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding-top: 65px;
+    margin-bottom: 50px;
+}
+
+.min-max-sidebar {
+   font-weight: 500;
+}
+
+.checkbox-position {
+    margin-bottom: 20px !important;
+}
+
+.drop-down {
+    margin-bottom: 60px !important;
+}
+
+
+
+.sidebar-button {
+    border-radius: 4px;
+    background: #2196f3;
+    height: 50px;
+    border: none;
+    color: white;
 }
