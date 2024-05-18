@@ -239,3 +239,61 @@ flex-shrink: 0;
     border: none;
     color: white;
 }
+
+.header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.container-paddings {
+    padding-left: 100px !important;
+}
+
+.special-cont {
+    padding-top: 100px;
+}
+
+.iframe {
+    margin-left: 200px;
+}
+
+.location-headline {
+    font-family: "Kanit", sans-serif;
+    padding-left: 200px;
+}
+
+.display-ul-location {
+    display: flex;
+}
+
+.location-ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    padding-top: 80px;
+    padding-left: 120px;
+}
+
+
+.location {
+    background-color: ;
+}
+
+.lego-color {
+    color: red;
+    font-weight: 500;
+}
+
+.location-text {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Kanit", sans-serif;
+}
+
+.lego-img {
+    width: 360px;
+    margin-left: 90px;
+}
+
+
