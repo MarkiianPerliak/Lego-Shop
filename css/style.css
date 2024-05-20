@@ -359,6 +359,7 @@ flex-shrink: 0;
 
 .footer-headline {
     color: white;
+    padding-left: 30px;
 }
 
 .footer-text {
@@ -368,4 +369,16 @@ flex-shrink: 0;
 .footer-link {
     text-decoration: none;
     color: #2196f3;
+}
+
+.footer-text-2 {
+    font-size: 20px;
+}
+
+.footer-text-3 {
+    font-size: 25px;
+}
+
+.footer-text-4 {
+    font-size: 30px;
 }
