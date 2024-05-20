@@ -92,6 +92,15 @@ flex-shrink: 0;
 } */
 
 
+.img-sec {
+    /* background-color: rgb(2, 28, 71); */
+    padding-bottom: 20px;
+}
+
+/* .card-img {
+    background-color: rgb(2, 28, 71) !important;
+} */
+
 .btn-nav {
     border-width: 1px!important;
     border-color: red !important;
@@ -114,6 +123,11 @@ flex-shrink: 0;
     margin-left: 50px !important;
    
 }
+
+
+/* .card-text {
+    color: white;
+} */
 
 
 .nav-ul {
@@ -261,6 +275,7 @@ flex-shrink: 0;
 .location-headline {
     font-family: "Kanit", sans-serif;
     padding-left: 200px;
+    color: white;
 }
 
 .display-ul-location {
@@ -277,7 +292,7 @@ flex-shrink: 0;
 
 
 .location {
-    background-color: ;
+    background-color: rgb(2, 28, 71);
 }
 
 .lego-color {
@@ -289,6 +304,7 @@ flex-shrink: 0;
     font-size: 25px;
     font-weight: 400;
     font-family: "Kanit", sans-serif;
+    color: white;
 }
 
 .lego-img {
@@ -296,4 +312,60 @@ flex-shrink: 0;
     margin-left: 90px;
 }
 
+.container-paddings-items {
+    padding-left: 265px;
+}
 
+
+.items {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.items-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.item-color-button {
+    background-color: rgb(2, 28, 71) !important;
+    border-color: rgb(2, 28, 71) !important;
+}
+
+.item-img-styles {
+    width: 230px !important;
+    height: 200px !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.footer {
+    background-color: rgb(2, 28, 71);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+
+.container-paddings-footer {
+    padding-left: 300px;
+}
+
+
+.footer-headline {
+    color: white;
+}
+
+.footer-text {
+    color: white;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #2196f3;
+}
